@@ -15,7 +15,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Flutter Demo',
+      title: 'Flutter Demo',//////////comment/////////////
       debugShowCheckedModeBanner: false,
       home: ChangeNotifierProvider(
           create: (context) => NewsProvider(),
